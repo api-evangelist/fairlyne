@@ -1,22 +1,74 @@
 aid: fairlyne
 name: Fairlyne
-description: Fairlyne is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
-url: https://raw.githubusercontent.com/api-evangelist/fairlyne/refs/heads/main/apis.yml
+description: >-
+  Fairlyne is a French travel-technology company offering a white-label
+  Resale-as-a-Service platform that lets travel brands turn no-shows and
+  low-yield bookings into new revenue by allowing passengers and guests to
+  resell non-refundable tickets and reservations. Founded in 2021 by former
+  Accor executives Gilles de Richemond and Michael d'Eboli, the platform
+  serves airlines, railway and road-transport operators, and hospitality
+  chains, and powers programs such as SNCF Ouigo's resale experience. Fairlyne
+  raised a 3M EUR seed round from Speedinvest, Kima Ventures, Evolem, and FJ
+  Labs. This repository captures any APIs, developer tools, and
+  machine-readable API artifacts associated with Fairlyne. No public developer
+  API or documentation portal has been identified at this time.
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/fairlyne/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
-- speedinvest
+  - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fairlyne.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
-- Company
+  - Company
+  - Travel
+  - Travel Technology
+  - SaaS
+  - Resale
+  - Airlines
+  - Rail
+  - Hospitality
 apis: []
+common:
+  - type: Website
+    url: https://www.fairlyne.com
+  - type: Blog
+    url: https://www.fairlyne.com/the-fairlyne-blog/
+  - type: Support
+    url: https://www.fairlyne.com/contact-us/
+  - type: PrivacyPolicy
+    url: https://www.fairlyne.com/privacy-policy/
+  - type: TermsOfService
+    url: https://www.fairlyne.com/legal-notice/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/fairlyne/
+  - type: X
+    url: https://twitter.com/FairlyneTech
+  - type: DomainSecurity
+    url: security/fairlyne-domain-security.yml
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
-- FN: APIs.json
-  email: info@apis.io
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+  - FN: APIs.json
+    email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
